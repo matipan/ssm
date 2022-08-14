@@ -214,7 +214,7 @@ func (StartSessionCommand) validateStartSessionInput(parameters map[string][]str
 			utils.FormatFlag(INSTANCE_ID)))
 	}
 
-	for key, _ := range parameters {
+	for key := range parameters {
 		if !contains(ParameterKeys, key) {
 			validation = append(validation, fmt.Sprintf("%v not a valid command parameter flag", key))
 		}
@@ -235,8 +235,6 @@ func contains(arr []string, item string) bool {
 // function to get start-session parameters
 func (s *StartSessionCommand) getStartSessionParams(log log.T, parameters map[string][]string) (string, string, string, error) {
 	//Fetch command token
-	uuid.SwitchFormat(uuid.CleanHyphen)
-
 	startSessionInput := ssm.StartSessionInput{
 		Target: &parameters[INSTANCE_ID][0],
 	}
