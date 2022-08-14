@@ -1,4 +1,4 @@
-module github.com/aws/SSMCLI
+module github.com/matipan/ssm
 
 go 1.18
 

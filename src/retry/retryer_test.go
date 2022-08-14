@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aws/SSMCLI/src/config"
+	"github.com/matipan/ssm/src/config"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/log"
 	"github.com/twinj/uuid"
 )
 

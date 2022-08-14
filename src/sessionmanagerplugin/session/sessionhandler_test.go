@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
-	wsChannelMock "github.com/aws/SSMCLI/src/communicator/mocks"
-	"github.com/aws/SSMCLI/src/config"
-	"github.com/aws/SSMCLI/src/datachannel"
-	dataChannelMock "github.com/aws/SSMCLI/src/datachannel/mocks"
-	"github.com/aws/SSMCLI/src/message"
+	wsChannelMock "github.com/matipan/ssm/src/communicator/mocks"
+	"github.com/matipan/ssm/src/config"
+	"github.com/matipan/ssm/src/datachannel"
+	dataChannelMock "github.com/matipan/ssm/src/datachannel/mocks"
+	"github.com/matipan/ssm/src/message"
 	"github.com/stretchr/testify/mock"
 
 	"github.com/stretchr/testify/assert"

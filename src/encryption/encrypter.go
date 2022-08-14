@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/log"
 	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
 )
 

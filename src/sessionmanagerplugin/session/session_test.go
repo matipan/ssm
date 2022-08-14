@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	wsChannelMock "github.com/aws/SSMCLI/src/communicator/mocks"
-	dataChannelMock "github.com/aws/SSMCLI/src/datachannel/mocks"
-	"github.com/aws/SSMCLI/src/log"
+	wsChannelMock "github.com/matipan/ssm/src/communicator/mocks"
+	dataChannelMock "github.com/matipan/ssm/src/datachannel/mocks"
+	"github.com/matipan/ssm/src/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

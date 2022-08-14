@@ -16,8 +16,8 @@ package encryption
 import (
 	"fmt"
 
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/sdkutil"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/sdkutil"
 	sdkSession "github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/aws/aws-sdk-go/service/kms/kmsiface"

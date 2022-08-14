@@ -17,8 +17,8 @@ package version
 import (
 	"testing"
 
-	"github.com/aws/SSMCLI/src/config"
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/config"
+	"github.com/matipan/ssm/src/log"
 	"github.com/stretchr/testify/assert"
 )
 

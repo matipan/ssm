@@ -19,11 +19,11 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/aws/SSMCLI/src/config"
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/message"
-	"github.com/aws/SSMCLI/src/retry"
-	"github.com/aws/SSMCLI/src/sdkutil"
+	"github.com/matipan/ssm/src/config"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/message"
+	"github.com/matipan/ssm/src/retry"
+	"github.com/matipan/ssm/src/sdkutil"
 	sdkSession "github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ssm"
 )

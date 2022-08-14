@@ -15,12 +15,12 @@
 package portsession
 
 import (
-	"github.com/aws/SSMCLI/src/config"
-	"github.com/aws/SSMCLI/src/jsonutil"
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/message"
-	"github.com/aws/SSMCLI/src/sessionmanagerplugin/session"
-	"github.com/aws/SSMCLI/src/version"
+	"github.com/matipan/ssm/src/config"
+	"github.com/matipan/ssm/src/jsonutil"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/message"
+	"github.com/matipan/ssm/src/sessionmanagerplugin/session"
+	"github.com/matipan/ssm/src/version"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/SSMCLI/src/sdkutil/retryer"
+	"github.com/matipan/ssm/src/sdkutil/retryer"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 )

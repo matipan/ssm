@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/aws/SSMCLI/src/ssmclicommands/utils"
+	"github.com/matipan/ssm/src/ssmclicommands/utils"
 )
 
 const (

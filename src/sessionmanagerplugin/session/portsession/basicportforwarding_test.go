@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

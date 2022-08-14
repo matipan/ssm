@@ -17,7 +17,7 @@ package retry
 import (
 	"time"
 
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/log"
 )
 
 const sleepConstant = 2

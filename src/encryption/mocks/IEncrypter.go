@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	log "github.com/aws/SSMCLI/src/log"
+	log "github.com/matipan/ssm/src/log"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -22,15 +22,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/SSMCLI/src/config"
+	"github.com/matipan/ssm/src/config"
 
-	"github.com/aws/SSMCLI/src/datachannel"
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/message"
-	"github.com/aws/SSMCLI/src/retry"
-	"github.com/aws/SSMCLI/src/sdkutil"
-	"github.com/aws/SSMCLI/src/sessionmanagerplugin/session/sessionutil"
-	"github.com/aws/SSMCLI/src/version"
+	"github.com/matipan/ssm/src/datachannel"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/message"
+	"github.com/matipan/ssm/src/retry"
+	"github.com/matipan/ssm/src/sdkutil"
+	"github.com/matipan/ssm/src/sessionmanagerplugin/session/sessionutil"
+	"github.com/matipan/ssm/src/version"
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/twinj/uuid"
 )

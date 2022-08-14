@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/SSMCLI/src/datachannel"
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/message"
+	"github.com/matipan/ssm/src/datachannel"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/message"
 	"github.com/stretchr/testify/assert"
 )
 

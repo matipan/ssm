@@ -23,8 +23,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/aws/SSMCLI/src/log"
-	"github.com/aws/SSMCLI/src/message"
+	"github.com/matipan/ssm/src/log"
+	"github.com/matipan/ssm/src/message"
 )
 
 //disableEchoAndInputBuffering disables echo to avoid double echo and disable input buffering

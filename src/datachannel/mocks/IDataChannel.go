@@ -6,10 +6,10 @@ package mocks
 import (
 	list "container/list"
 
-	communicator "github.com/aws/SSMCLI/src/communicator"
-	datachannel "github.com/aws/SSMCLI/src/datachannel"
-	log "github.com/aws/SSMCLI/src/log"
-	message "github.com/aws/SSMCLI/src/message"
+	communicator "github.com/matipan/ssm/src/communicator"
+	datachannel "github.com/matipan/ssm/src/datachannel"
+	log "github.com/matipan/ssm/src/log"
+	message "github.com/matipan/ssm/src/message"
 	mock "github.com/stretchr/testify/mock"
 )
 

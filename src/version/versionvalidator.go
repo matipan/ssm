@@ -15,8 +15,8 @@
 package version
 
 import (
-	"github.com/aws/SSMCLI/src/config"
-	"github.com/aws/SSMCLI/src/log"
+	"github.com/matipan/ssm/src/config"
+	"github.com/matipan/ssm/src/log"
 )
 
 // DoesAgentSupportTCPMultiplexing returns true if given agentVersion supports TCP multiplexing in port plugin, false otherwise
